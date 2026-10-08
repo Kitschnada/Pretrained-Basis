@@ -1,0 +1,31 @@
+data
+*openai*
+csvs
+.vscode
+__pycache__
+*.pyc
+wandb
+.locks
+hf
+.ruff_cache
+logs*
+*.pdf
+*.bash
+plots
+lora_rank*
+vera_rank*
+
+# Local backups and generated experiment outputs.
+backups/
+results/
+checkpoints/
+.pytest_cache/
+
+# Private local tooling, credentials, and environment configuration.
+.codex
+.agents/
+.aws/
+.env
+.env.*
+!.env.example
+!.env.template
